@@ -5,7 +5,7 @@ cask "badasseo" do
   url "https://github.com/ulBible/badasseo/releases/download/v#{version}/Badasseo-#{version}.zip"
   name "Badasseo"
   name "받아써"
-  desc "Korean-first local voice typing for the Mac menu bar (whisper.cpp)"
+  desc "Korean-first local voice typing (whisper.cpp)"
   homepage "https://github.com/ulBible/badasseo"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "badasseo" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Badasseo.app"

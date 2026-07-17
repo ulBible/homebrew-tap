@@ -4,7 +4,7 @@ cask "vclips" do
 
   url "https://github.com/ulBible/vClips/releases/download/v#{version}/vClips-#{version}.zip"
   name "vClips"
-  desc "Lightweight clipboard manager for the Mac menu bar"
+  desc "Lightweight menu-bar clipboard manager"
   homepage "https://github.com/ulBible/vClips"
 
   # Sparkle keeps the app up to date after install; brew upgrade also works.
@@ -13,7 +13,7 @@ cask "vclips" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "vClips.app"
 
