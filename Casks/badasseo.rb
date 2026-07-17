@@ -1,6 +1,6 @@
 cask "badasseo" do
   version "1.0.0"
-  sha256 "2b9578612c76014fea3d3f90f435828bcd7fa0ab688788078d48398fb9ce46cf"
+  sha256 "8217a7b8fb583e1f781d967776fd57027ef06f148c2599abe7821945783e39f5"
 
   url "https://github.com/ulBible/badasseo/releases/download/v#{version}/Badasseo-#{version}.zip"
   name "Badasseo"
