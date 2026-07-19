@@ -1,6 +1,6 @@
 cask "vclips" do
-  version "1.2.3"
-  sha256 "5d1d55898414585a166f9238e7c1cdf30d52973d9b91228e49afe4ed5c6780d5"
+  version "1.2.4"
+  sha256 "70fee712617f086aef95bcd8b28c30dd14176214f1c49c11ae9b0a0d734056ab"
 
   url "https://github.com/ulBible/vClips/releases/download/v#{version}/vClips-#{version}.zip"
   name "vClips"
