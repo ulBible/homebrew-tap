@@ -1,8 +1,8 @@
 cask "vclips" do
   version "1.2.4"
-  sha256 "70fee712617f086aef95bcd8b28c30dd14176214f1c49c11ae9b0a0d734056ab"
+  sha256 "ca5ea193485fcdc99c723cfcf72302f4be04eafde79332122acce5c05cd7bd47"
 
-  url "https://github.com/ulBible/vClips/releases/download/v#{version}/vClips-#{version}.zip"
+  url "https://github.com/ulBible/vClips/releases/download/v#{version}/vClips-#{version}.dmg"
   name "vClips"
   desc "Lightweight menu-bar clipboard manager"
   homepage "https://github.com/ulBible/vClips"

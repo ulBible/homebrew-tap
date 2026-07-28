@@ -1,8 +1,8 @@
 cask "badasseo" do
   version "1.0.4"
-  sha256 "22be41214eee309c931e295afadc6c8f96c9abaae0b0b28de3ba0c1115f45584"
+  sha256 "74587486a1dd771cc3c2f4b952790b302668151cd272c5f4ac278dd0f44870a2"
 
-  url "https://github.com/ulBible/badasseo/releases/download/v#{version}/Badasseo-#{version}.zip"
+  url "https://github.com/ulBible/badasseo/releases/download/v#{version}/Badasseo-#{version}.dmg"
   name "Badasseo"
   name "받아써"
   desc "Korean-first local voice typing (whisper.cpp)"
